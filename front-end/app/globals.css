@@ -3,7 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 @plugin "@tailwindcss/typography";
 
-@theme {
+@theme inline {
   --color-primary-100: #fff1e6;
   --color-primary-500: #ff7000;
 

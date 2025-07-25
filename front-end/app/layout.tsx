@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk} from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={spaceGrotesk.className}>
+      <body className={`${inter.className} ${spaceGrotesk.variable}`}>
         <h1>This is inter</h1>
         <h1 className='font-space-grotesk'>This gros</h1>
         {children}
