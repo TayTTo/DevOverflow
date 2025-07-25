@@ -28,13 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-<<<<<<< HEAD
-    <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${inter.className}`}>
-=======
     <html lang="en" >
       <body className={`${inter.className} ${spaceGrotesk.variable}`}>
->>>>>>> parent of 9c34c1a (fix success the font setup error)
         <h1>This is inter</h1>
         <h1 className='font-space-grotesk'>This gros</h1>
         {children}
